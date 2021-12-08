@@ -10,7 +10,7 @@ namespace TestFileReceive
 	{
 		static void Main(string[] args)
 		{
-			Console.WriteLine("Hello World!");
+			Console.WriteLine("Welcome to the TCPFileTransfer program, Receiving files from pi to c:/");
 
 			TcpListener listener = new TcpListener(IPAddress.Any, 7777);
 			listener.Start();
