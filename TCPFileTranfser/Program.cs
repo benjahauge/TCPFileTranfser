@@ -12,7 +12,7 @@ namespace TestFileTransfer
 	{
 		static void Main(string[] args)
 		{
-			Console.WriteLine("Wee");
+			Console.WriteLine("Welcome to the TCPFileTransfer program");
 
 			string[] files = Directory.GetFiles(@"c:/PythonVideo/");
 			List<TransferClass> transferList = new List<TransferClass>();
